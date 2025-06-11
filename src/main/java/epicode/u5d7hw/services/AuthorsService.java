@@ -56,10 +56,10 @@ public class AuthorsService {
                 found.setSurname(author.getSurname());
                 found.setId(id);
             }
-        }
+        } //
         if (found == null)
             throw new NotFoundException(id);
         return found;
 
     }
-}
+    }
